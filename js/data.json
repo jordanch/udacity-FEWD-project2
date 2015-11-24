@@ -1,0 +1,122 @@
+var bio = {
+	"name" : "Jordan Cole Hunt",
+	"role" : "Web developer, entrepreneur",
+	"contact" : {
+		"mobile" : "+27 82 392 3441",
+		"home" : "+27 31 561 5558",
+		"email" : "jordancolehunt@gmail.com",
+		"location" : "Durban, South Africa",
+		"linkedin" : "jordancolehunt",
+		"twitter" : "@jordancolehunt",
+		"github" : "jordanch"
+	},
+	"picture" : "images/jordan-small.jpg",
+	"welcome" : "\"You've got to find what you love\" - Steve Jobs" ,
+	"skills" : [
+		"HTML", "CSS", "JavaScript", "Python", "Teamwork", "Git", "Agile"
+	],
+	"footerContacts" : {
+		"facebook" : "http://www.facebook.com/jordancole.hunt",
+		"gmail" : "mailto:jordancolehunt@gmail.com",
+		"linkedin" : "http://za.linkedin.com/in/jordancolehunt",
+		"github" : "https://www.github.com/jordanch",
+		"googleplus" : "https://plus.google.com/103182408934613018833",
+		"twitter" : "https://twitter.com/jordancolehunt"
+	}
+};
+
+var work = {
+	"jobs" : [
+		{
+			"position" : "Quality Assurer Level 1",
+			"employer" : "Derivco",
+			"dates" : "Jan '15 - Sep '15",
+			"location" : "77 Armstrong Ave, Durban, South Africa",
+			"description" : "After general training, I joined the Flash team. We tested and reported on the quality of all the products associated with the Flash casino client, including web applications. This role was very process heavy with large volume test cases and quick test cycles. I learnt a lot about the SDLC, software testing and software development during my time at Derivco. I left to focus on my skills as a web software developer, which is the craft I want to hone for myself."
+		},
+		{
+			"position" : "Building Information consultant",
+			"employer" : "LARGE Architecture",
+			"dates" : "Jun '14 - Nov '14",
+			"location" : "550 Lilian Ngoyi Rd, Durban, South Africa",
+			"description" : "I took the experience of implementing software and driving business value which I gained from my time at FWJK to LARGE Architecture which had a startup division, BIM Process Centre, where I collaborated with a professional architect on delivering value to contractors and consultants using Building Information Modelling solutions. The startup wasn't panning out as expected so I left to join Derivco."
+		},
+		{
+			"position" : "Apprentice Quantity Surveyor",
+			"employer" : "FWJK",
+			"dates" : "Jan '12 - Oct '12 & Jan '14 - Jun '14",
+			"location" : "41 Richefond Cir, Durban, South Africa",
+			"description" : "I worked at FWJK part-time during my studies and full-time for awhile post Honours degree. I did a lot of taking-off (price determination) for estimates and Final Accounts. I conceptualised, planned, implemented and maintained on-screen take-off software called <i>Dimension X</i> which delivered huge value through productivity and informational improvements. I also ran a side-project for property development aerial photography using a quad-copter drone which also delivered value to the company. I left the company to have more time to focus on Building Information technology."
+		}
+	]
+};
+
+var travelCountries = {
+	"travelLocation" : [
+		"Thailand", "Poland", "Holland", "Mauritius"
+	]
+};
+
+
+var portfolio = {
+	"projects" : [
+		{
+			"title" : "Aerial photography",
+			"dates" : "2014",
+			"description" : "During my full-time employment at FWJK after my degree, I conceptualised a side-line project of using a quad-copter drone for property photography and monthly valuations. I pitched this to the company owner who was very receptive and financed the project. I purchased a second-hand drone, gimbal, GoPro camera and first-person view hardware. I had to learn about the electronics, software and teach myself to fly. This involved many hours online, sifting through forum posts and documentation. After a few weeks I was in the air and getting great shots for the company. The shots I was asked to get were for marketing campaigns for the buildings in development. I had to go to a purchased site where a building was to be erected, and fly to specific heights and take shots of what the views were likely to be. This was then packaged and sent to potential investors. It proved to be a unique offering in Durban and investors really liked the insight.",
+			"images" : [
+				"images/droneshot.jpg"
+			]
+		},
+		{
+			"title" : "Enterprise software implementation",
+			"dates" : "2013",
+			"description" : "During my part-time work as a apprentice quantity surveyor at FWJK I started researching available software for on-screen take-off, in order to streamline the price determination process using software. I found a South African product called Dimension X. I put together a brief, approached the owner of the company and convinced him to fund the project and purchase twelve two-dimension take-off licenses. I set up the software on multiple apprentice, candidate and professional quantity surveyors computers. The company owner agreed to let me bring in a trainer to professionally train the quantity surveyors on using the software. After everyone was comfortable with the software and how to use it, the results became apparent. Over the next few months I provided on-site support and was able to monitor how effective the solution was and how much business value it added.",
+			"images" : [
+				"images/dimx.jpg"
+			]
+		}
+	]
+};
+
+var education = {
+	"institutions" : [
+		{
+			"name" : "University of KwaZulu-Natal",
+			"location" : "Durban",
+			"type" : "BSc Honours",
+			"courseName" : "Quantity Surveying",
+			"status" : "completed '13",
+			"link" : "",
+			"linkName" : ""
+
+		},
+		{
+			"name" : "Project Management Institute",
+			"location" : "Project Management Institute",
+			"type" : "Certifying certificate",
+			"courseName" : "Agile Certified Professional",
+			"status" : "currently certified",
+			"link" : "http://www.pmi.org/certification/agile-management-acp.aspx",
+			"linkName" : "www.pmi.org"
+		},
+		{
+			"name" : "Udacity Nanodegree",
+			"location" : "Udacity Online University",
+			"type" : "Nanodegree",
+			"courseName" : "Front-End Web Developer",
+			"status" : "currently enrolled, TBC Dec '15",
+			"link" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
+			"linkName" : "www.udacity.com"
+		},
+		{
+			"name" : "Coursera Specialisation",
+			"location" : "Coursera Online Learning Platform",
+			"type" : "Specialisation",
+			"courseName" : "Fundamentals of Computation",
+			"status" : "currently enrolled, TBC Dec '15",
+			"link" : "https://www.coursera.org/specializations/fundamentalscomputing2",
+			"linkName" : "www.coursera.org"
+		}
+	]
+};
